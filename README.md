@@ -2,9 +2,19 @@
 
 **ColorDigitLogic** est une application web indépendante permettant de recopier, compléter et vérifier des grilles de logique mêlant **nombres et couleurs**. Elle fonctionne sur ordinateur, tablette et téléphone, directement dans le navigateur.
 
-**Version actuelle : V31** — application web installable (PWA), utilisable hors ligne après un premier chargement, avec solveur et contrôle immédiat des erreurs par rapport à la solution unique lorsqu’elle existe.
+**Version actuelle : V32** — application web installable (PWA), utilisable hors ligne après un premier chargement, avec solveur et contrôle immédiat des erreurs par rapport à la solution unique lorsqu’elle existe.
 
 **Jouer :** https://pixou2000.github.io/ColorDigitLogic/
+
+## Nouveautés V32 — bibliothèque fixe
+
+- 710 grilles numérotées : 110 en 2×3 et 100 dans chacun des six autres formats.
+- Sur l'accueil, sélectionner un format puis choisir une grille au hasard, par numéro, ou la première non encore résolue **sur cet appareil**.
+- Les résultats enregistrent le numéro de grille de bibliothèque ; il figure dans l'historique et les exports JSON.
+- Les sept fichiers `grilles/*.json` doivent être publiés sur GitHub Pages avec `index.html`.
+- Les grilles de la bibliothèque sont des puzzles prêts à jouer, tandis que le générateur aléatoire et le mode préparation restent disponibles.
+- Les historiques restent locaux à chaque navigateur : le statut « non encore résolue » ne se synchronise pas automatiquement entre appareils.
+- La difficulté de la bibliothèque reste provisoire. Les grilles sont issues du générateur V1 et ne contiennent pas d'indices négatifs.
 
 ## Fonctionnalités
 
