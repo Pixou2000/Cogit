@@ -1,4 +1,4 @@
-const CACHE_NAME = 'colordigitlogic-v32';
+const CACHE_NAME = 'colordigitlogic-v34';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './grilles/2x3.json', './grilles/3x3.json', './grilles/3x4.json', './grilles/4x4.json', './grilles/4x5.json', './grilles/5x5.json', './grilles/5x6.json'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));

@@ -2,9 +2,26 @@
 
 **ColorDigitLogic** est une application web indépendante permettant de recopier, compléter et vérifier des grilles de logique mêlant **nombres et couleurs**. Elle fonctionne sur ordinateur, tablette et téléphone, directement dans le navigateur.
 
-**Version actuelle : V32** — application web installable (PWA), utilisable hors ligne après un premier chargement, avec solveur et contrôle immédiat des erreurs par rapport à la solution unique lorsqu’elle existe.
+**Version actuelle : V34** — application web installable (PWA), utilisable hors ligne après un premier chargement, avec solveur et contrôle immédiat des erreurs par rapport à la solution unique lorsqu’elle existe.
 
 **Jouer :** https://pixou2000.github.io/ColorDigitLogic/
+
+## Nouveautés V34 — défaites et tentatives
+
+- Une partie perdue à la troisième erreur est enregistrée dans l’historique avec le résultat **PERDU** et son temps d’arrêt.
+- L’historique affiche **Résultat** et **Tentative**. Les tentatives sont numérotées chronologiquement pour chaque identifiant de grille de la bibliothèque (1, 2, 3, etc.).
+- Une grille perdue reste proposée par le mode « Non encore résolue » ; seule une victoire la retire de cette sélection.
+- Les défaites ne comptent pas pour les records. Les anciennes parties sans résultat explicite sont considérées comme gagnées.
+- Les exports et imports de résultats conservent les défaites et les tentatives, calculées à partir des parties enregistrées.
+
+## Nouveautés V33 — messages sur la grille et limite d’erreurs
+
+- **Victoire** : affichage « GAGNÉ ! » en superposition au centre de la grille, avec le temps, le nombre d’erreurs et l’éventuel nouveau record.
+- **Erreur** : message temporaire « ERREUR 1/3 » ou « ERREUR 2/3 » directement sur la grille (environ 1,1 seconde).
+- **Troisième erreur** : affichage permanent « PERDU » et « 3 erreurs sur 3 » ; arrêt du chronomètre et verrouillage de la partie. Une partie perdue n’est pas enregistrée comme une victoire et ne marque pas la grille de bibliothèque comme résolue.
+- Le compteur d’erreurs affiche désormais `Erreurs : 0/3` à `3/3`.
+- Les grilles, bibliothèques, résultats précédents et modes de jeu V32 sont conservés.
+- La limite s’applique aux erreurs détectées immédiatement lors de la saisie (solution unique connue ou indice voisin contredit). Si le solveur ne peut pas certifier une solution unique, le contrôle reste limité aux indices vérifiables.
 
 ## Nouveautés V32 — bibliothèque fixe
 
