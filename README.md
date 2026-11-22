@@ -1,3 +1,7 @@
+## V41 — grille épurée
+
+Les cases vides ne montrent plus de point central ; les noms des couleurs ne sont plus affichés dans les cases. Les indices et toutes les règles restent inchangés.
+
 # Cogit
 
 **Cogit** (anciennement ColorDigitLogic) est une application web indépendante permettant de recopier, compléter et vérifier des grilles de logique mêlant **nombres et couleurs**. Elle fonctionne sur ordinateur, tablette et téléphone, directement dans le navigateur.
