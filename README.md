@@ -2,9 +2,16 @@
 
 **ColorDigitLogic** est une application web indépendante permettant de recopier, compléter et vérifier des grilles de logique mêlant **nombres et couleurs**. Elle fonctionne sur ordinateur, tablette et téléphone, directement dans le navigateur.
 
-**Version actuelle : V38** — application web installable (PWA), utilisable hors ligne après un premier chargement, avec solveur et contrôle immédiat des erreurs par rapport à la solution unique lorsqu’elle existe.
+**Version actuelle : V39** — application web installable (PWA), utilisable hors ligne après un premier chargement, avec solveur et contrôle immédiat des erreurs par rapport à la solution unique lorsqu’elle existe.
 
 **Jouer :** https://pixou2000.github.io/ColorDigitLogic/
+
+## Correction V39 — records propres à chaque grille
+
+- Le message « Record de la grille 2x3-0003 ! » n'apparaît que si la nouvelle victoire améliore le **nombre d'erreurs**, ou à erreurs égales le **temps** de la meilleure victoire antérieure sur cette grille.
+- Le numéro de tentative n'intervient pas dans les records propres à une grille.
+- Les records par format restent classés par **tentative**, puis **erreurs**, puis **temps** ; leur annonce reste prioritaire.
+- Une première victoire sur une grille, sans nouveau record de format, affiche simplement « GAGNÉ ! ».
 
 ## Nouveautés V38 — records de grille et accueil
 
