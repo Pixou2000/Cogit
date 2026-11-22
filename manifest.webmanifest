@@ -1,7 +1,7 @@
 {
-  "name": "ColorDigitLogic",
-  "short_name": "ColorDigitLogic",
-  "description": "Jeu de logique de chiffres et couleurs",
+  "name": "Cogit",
+  "short_name": "Cogit",
+  "description": "Cogit — jeu de logique des chiffres et des couleurs",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

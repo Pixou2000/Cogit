@@ -1,10 +1,21 @@
-# ColorDigitLogic
+# Cogit
 
-**ColorDigitLogic** est une application web indépendante permettant de recopier, compléter et vérifier des grilles de logique mêlant **nombres et couleurs**. Elle fonctionne sur ordinateur, tablette et téléphone, directement dans le navigateur.
+**Cogit** (anciennement ColorDigitLogic) est une application web indépendante permettant de recopier, compléter et vérifier des grilles de logique mêlant **nombres et couleurs**. Elle fonctionne sur ordinateur, tablette et téléphone, directement dans le navigateur.
 
-**Version actuelle : V39** — application web installable (PWA), utilisable hors ligne après un premier chargement, avec solveur et contrôle immédiat des erreurs par rapport à la solution unique lorsqu’elle existe.
+**Version actuelle : V40** — application web installable (PWA), utilisable hors ligne après un premier chargement, avec solveur et contrôle immédiat des erreurs par rapport à la solution unique lorsqu’elle existe.
 
 **Jouer :** https://pixou2000.github.io/ColorDigitLogic/
+
+## V40 — nouveau nom et nouveau logo
+
+- L’application s’appelle désormais **Cogit** (anciennement **ColorDigitLogic**).
+- Nouveau logo sur l’accueil et nouvelles icônes PWA (`icon-192.png` et `icon-512.png`) : chiffres dans les cases, indices violet et rouge sans chiffre, indice numérique 5 conservé.
+- Le titre du navigateur, le nom d’installation et le manifeste PWA sont mis à jour.
+- L’URL GitHub Pages reste **https://pixou2000.github.io/ColorDigitLogic/** : aucun changement de dépôt n’est nécessaire.
+- Les **clés localStorage** (`colordigitlogic_*`), les types JSON (`ColorDigitLogicResults`, `ColorDigitLogicRecords`) et le schéma des bibliothèques (`ColorDigitLogic-library-v1`) restent **inchangés** pour préserver l’historique, les records, les sauvegardes et la compatibilité des imports.
+- Les exports nouvellement téléchargés portent le préfixe `Cogit` ; les anciens fichiers JSON restent importables.
+- Les sept bibliothèques de grilles sont conservées sans modification.
+- Lors d'une mise à jour d'une PWA déjà installée, l'ancienne icône peut rester visible temporairement à cause du cache du système ; si nécessaire, supprimer puis réinstaller le raccourci **après avoir exporté les résultats par précaution**.
 
 ## Correction V39 — records propres à chaque grille
 
@@ -112,12 +123,12 @@ Le chronomètre démarre au passage en mode jeu et peut être mis en pause ou re
 
 Les sauvegardes locales et les records **ne se synchronisent pas automatiquement** entre appareils. Pour transférer une partie, utiliser le fichier JSON.
 
-## Installer ColorDigitLogic sur iPhone ou iPad
+## Installer Cogit sur iPhone ou iPad
 
 1. Ouvrir https://pixou2000.github.io/ColorDigitLogic/ dans **Safari**.
 2. Toucher le bouton **Partager**.
 3. Choisir **Sur l'écran d'accueil**, puis **Ajouter**.
-4. Lancer ColorDigitLogic depuis l'icône ajoutée.
+4. Lancer Cogit depuis l'icône ajoutée.
 
 L'application est conçue pour fonctionner **hors ligne après un premier chargement en ligne**. Pour vérifier : ouvrir l'application une première fois, fermer l'application, activer le mode Avion et la relancer depuis son icône.
 
