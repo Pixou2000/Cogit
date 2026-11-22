@@ -318,3 +318,8 @@ Entre « But du jeu » et « Règles », ajout d’un exemple statique 2×3 mont
 - Légende visuelle des trois indices (numérique, couleur, négatif) sous la grille d’exemple.
 - Le dernier indice numérique de l’exemple est désormais un **indice négatif 4** (la somme réelle de la dernière ligne est 5), avec un contour rouge, dans les deux vues de la même grille.
 - Les autres règles et les exemples de mélanges sont conservés.
+
+
+## V42 — Compteurs dans les palettes de jeu
+
+Les palettes des chiffres et des couleurs (sous la grille en mode jeu) affichent des points gris foncé représentant les placements encore disponibles. Pour un format 2×3, chaque chiffre a initialement 2 points et chaque couleur 3 points. Les points sont actualisés après chaque saisie correcte, effacement, annulation ou chargement. Les couleurs de la palette sont désormais carrées. Les indices et la grille ne changent pas.
