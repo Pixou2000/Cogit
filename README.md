@@ -2,9 +2,18 @@
 
 **ColorDigitLogic** est une application web indépendante permettant de recopier, compléter et vérifier des grilles de logique mêlant **nombres et couleurs**. Elle fonctionne sur ordinateur, tablette et téléphone, directement dans le navigateur.
 
-**Version actuelle : V35** — application web installable (PWA), utilisable hors ligne après un premier chargement, avec solveur et contrôle immédiat des erreurs par rapport à la solution unique lorsqu’elle existe.
+**Version actuelle : V36** — application web installable (PWA), utilisable hors ligne après un premier chargement, avec solveur et contrôle immédiat des erreurs par rapport à la solution unique lorsqu’elle existe.
 
 **Jouer :** https://pixou2000.github.io/ColorDigitLogic/
+
+## Nouveautés V36 — tentative visible et correction immédiate des erreurs
+
+- Le numéro de tentative d’une grille de bibliothèque apparaît dans la barre de jeu, à côté de son identifiant, et pas seulement dans un élément masqué de l’ancienne interface.
+- Lorsqu’une saisie de chiffre ou de couleur est incorrecte, elle est **annulée immédiatement** : la valeur précédente de ce champ est conservée, l’autre champ de la case n’est pas modifié.
+- Un **cadre rouge** reste sur la case fautive jusqu’à une saisie correcte sur cette case ; le message « ERREUR 1/3 » ou « ERREUR 2/3 » apparaît brièvement sur la grille.
+- Une erreur n’est comptée qu’une fois et ne peut plus être recomptée lors d’une saisie correcte ailleurs.
+- À la troisième erreur, la partie est perdue et enregistrée dans l’historique, comme en V34/V35.
+- Les sept bibliothèques, le classement des records et l’historique sont conservés.
 
 ## Nouveautés V35 — numéro de tentative et priorité des records
 
