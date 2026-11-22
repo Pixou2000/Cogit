@@ -323,3 +323,7 @@ Entre « But du jeu » et « Règles », ajout d’un exemple statique 2×3 mont
 ## V42 — Compteurs dans les palettes de jeu
 
 Les palettes des chiffres et des couleurs (sous la grille en mode jeu) affichent des points gris foncé représentant les placements encore disponibles. Pour un format 2×3, chaque chiffre a initialement 2 points et chaque couleur 3 points. Les points sont actualisés après chaque saisie correcte, effacement, annulation ou chargement. Les couleurs de la palette sont désormais carrées. Les indices et la grille ne changent pas.
+
+
+## V43 — Palettes épuisées
+Quand un chiffre ou une couleur n’a plus de placements disponibles, son bouton de palette devient entièrement gris et son contenu est masqué. Il reste possible de le sélectionner pour modifier une case déjà renseignée.
