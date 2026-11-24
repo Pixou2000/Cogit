@@ -1,3 +1,7 @@
+# V47 — Gestion des données
+
+Export/import global JSON depuis l’accueil. Sur iOS, utiliser Enregistrer dans Fichiers dans la feuille de partage si disponible ; sur Mac déplacer le téléchargement dans iCloud Drive. Importer avant de jouer sur un autre appareil, puis sauvegarder et exporter après le jeu. Fusion par identifiant, sauvegarde la plus récente en cas de conflit, suppressions mémorisées à partir de V47. Les anciennes suppressions ne sont pas reconstructibles. Les fichiers de grille et de résultats individuels restent compatibles.
+
 ## V41 — grille épurée
 
 Les cases vides ne montrent plus de point central ; les noms des couleurs ne sont plus affichés dans les cases. Les indices et toutes les règles restent inchangés.
@@ -6,9 +10,9 @@ Les cases vides ne montrent plus de point central ; les noms des couleurs ne son
 
 **Cogit** (anciennement ColorDigitLogic) est une application web indépendante permettant de recopier, compléter et vérifier des grilles de logique mêlant **nombres et couleurs**. Elle fonctionne sur ordinateur, tablette et téléphone, directement dans le navigateur.
 
-**Version actuelle : V40** — application web installable (PWA), utilisable hors ligne après un premier chargement, avec solveur et contrôle immédiat des erreurs par rapport à la solution unique lorsqu’elle existe.
+**Version actuelle : V46** — application web installable (PWA), utilisable hors ligne après un premier chargement, avec solveur et contrôle immédiat des erreurs par rapport à la solution unique lorsqu’elle existe.
 
-**Jouer :** https://pixou2000.github.io/ColorDigitLogic/
+**Jouer :** https://pixou2000.github.io/Cogit/
 
 ## V40 — nouveau nom et nouveau logo
 
@@ -338,3 +342,10 @@ Quand un chiffre ou une couleur n’a plus de placements disponibles, son bouton
 ## V45 — Plusieurs sauvegardes locales
 
 Liste des parties sauvegardées, compteur dynamique, date de dernière sauvegarde, reprise et suppression individuelle. Migration de la sauvegarde unique V44. Une partie terminée est retirée de la liste.
+
+
+## V46 — Accès direct aux sauvegardes
+
+- Bouton Sauvegarder visible à côté d’Exporter en mode jeu, sans ouvrir Options.
+- Liste des sauvegardes repliée à chaque retour à l’accueil ; le bouton de chargement permet de l’ouvrir et de la refermer.
+- Compteur, données locales et chronométrage inchangés.
