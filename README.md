@@ -382,3 +382,6 @@ Pseudo facultatif, catalogue des campagnes personnelles et reçues, liens de par
 
 ## V2.1.2
 Historique des campagnes indépendant, bilan provisoire, pseudo sur l’accueil, lien de partage visible avant copie, noms Pseudo_XX et migration des anciens noms.
+
+## V2.1.3
+Le changement de pseudo renomme les campagnes personnelles (catalogue, campagne active et historique), sans modifier leurs identifiants, numéros, grilles ou résultats. La migration au démarrage et après import applique le pseudo courant. Les campagnes reçues gardent leur nom ; les anciens liens restent utilisables.
