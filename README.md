@@ -372,3 +372,6 @@ Liste des parties sauvegardées, compteur dynamique, date de dernière sauvegard
 
 ## V52 — Campagne
 Sept formats aléatoires, progression, reprise, bilan et historique spécifique. Export global inclut les campagnes. Une campagne active ; en cas de conflit entre deux campagnes actives, la plus récente est conservée.
+
+## V2.1
+Pseudo facultatif, catalogue des campagnes personnelles et reçues, liens de partage, rejeu, migration et synchronisation des campagnes, règles complétées.
