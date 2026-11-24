@@ -379,3 +379,6 @@ Sept formats aléatoires, progression, reprise, bilan et historique spécifique.
 
 ## V2.1
 Pseudo facultatif, catalogue des campagnes personnelles et reçues, liens de partage, rejeu, migration et synchronisation des campagnes, règles complétées.
+
+## V2.1.2
+Historique des campagnes indépendant, bilan provisoire, pseudo sur l’accueil, lien de partage visible avant copie, noms Pseudo_XX et migration des anciens noms.
