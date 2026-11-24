@@ -1,3 +1,7 @@
+# V49 — Date du fichier importé
+
+La confirmation de fusion affiche la date d’exportation contenue dans le JSON. Un avertissement non bloquant apparaît si elle précède la dernière demande d’exportation locale. La date du fichier importé reste visible dans Gestion des données. Les anciens fichiers sans date restent compatibles.
+
 # V48 — Correction export global
 
 Téléchargement JSON direct, sans API de partage, pour éviter les refus de permission. Déplacer le fichier téléchargé vers le dossier iCloud Drive souhaité.
@@ -14,7 +18,7 @@ Les cases vides ne montrent plus de point central ; les noms des couleurs ne son
 
 **Cogit** (anciennement ColorDigitLogic) est une application web indépendante permettant de recopier, compléter et vérifier des grilles de logique mêlant **nombres et couleurs**. Elle fonctionne sur ordinateur, tablette et téléphone, directement dans le navigateur.
 
-**Version actuelle : V46** — application web installable (PWA), utilisable hors ligne après un premier chargement, avec solveur et contrôle immédiat des erreurs par rapport à la solution unique lorsqu’elle existe.
+**Version actuelle : V49** — application web installable (PWA), utilisable hors ligne après un premier chargement, avec solveur et contrôle immédiat des erreurs par rapport à la solution unique lorsqu’elle existe.
 
 **Jouer :** https://pixou2000.github.io/Cogit/
 
