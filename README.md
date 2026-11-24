@@ -365,3 +365,6 @@ Liste des parties sauvegardées, compteur dynamique, date de dernière sauvegard
 - Bouton Sauvegarder visible à côté d’Exporter en mode jeu, sans ouvrir Options.
 - Liste des sauvegardes repliée à chaque retour à l’accueil ; le bouton de chargement permet de l’ouvrir et de la refermer.
 - Compteur, données locales et chronométrage inchangés.
+
+## V52 — Campagne
+Sept formats aléatoires, progression, reprise, bilan et historique spécifique. Export global inclut les campagnes. Une campagne active ; en cas de conflit entre deux campagnes actives, la plus récente est conservée.
