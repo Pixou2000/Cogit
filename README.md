@@ -1,3 +1,7 @@
+## V50 — Accueil simplifié
+
+Création, génération et import JSON individuel dans Fonctions avancées. Règles sur une page dédiée. Export individuel dans les outils de partie. Données et bibliothèque inchangées.
+
 # V49 — Date du fichier importé
 
 La confirmation de fusion affiche la date d’exportation contenue dans le JSON. Un avertissement non bloquant apparaît si elle précède la dernière demande d’exportation locale. La date du fichier importé reste visible dans Gestion des données. Les anciens fichiers sans date restent compatibles.
