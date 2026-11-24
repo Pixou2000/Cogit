@@ -327,3 +327,10 @@ Les palettes des chiffres et des couleurs (sous la grille en mode jeu) affichent
 
 ## V43 — Palettes épuisées
 Quand un chiffre ou une couleur n’a plus de placements disponibles, son bouton de palette devient entièrement gris et son contenu est masqué. Il reste possible de le sélectionner pour modifier une case déjà renseignée.
+
+## V44 — Rejouer et double chronométrage
+- Après trois erreurs, bouton Rejouer ? : mêmes indices et identifiant, grille vide, erreurs et chronos remis à zéro.
+- Temps effectif suspendu hors écran de jeu, onglet masqué ou fenêtre sans focus ; reprise automatique. Temps écoulé depuis le départ, interruptions comprises.
+- Compteur d’interruptions, bilan et historique enrichis ; records fondés sur le temps effectif comme auparavant.
+- Sauvegardes JSON et locales : reprise des chronos et du compteur. Anciennes sauvegardes : temps effectif conservé, temps écoulé et interruptions inconnus.
+- Aucun mode Campagne dans cette version.
