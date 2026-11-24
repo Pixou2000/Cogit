@@ -1,3 +1,7 @@
+# V48 — Correction export global
+
+Téléchargement JSON direct, sans API de partage, pour éviter les refus de permission. Déplacer le fichier téléchargé vers le dossier iCloud Drive souhaité.
+
 # V47 — Gestion des données
 
 Export/import global JSON depuis l’accueil. Sur iOS, utiliser Enregistrer dans Fichiers dans la feuille de partage si disponible ; sur Mac déplacer le téléchargement dans iCloud Drive. Importer avant de jouer sur un autre appareil, puis sauvegarder et exporter après le jeu. Fusion par identifiant, sauvegarde la plus récente en cas de conflit, suppressions mémorisées à partir de V47. Les anciennes suppressions ne sont pas reconstructibles. Les fichiers de grille et de résultats individuels restent compatibles.
