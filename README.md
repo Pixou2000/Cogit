@@ -1,3 +1,7 @@
+## V51 — Gestion des données dans Fonctions avancées
+
+La rubrique complète de gestion des données quitte l’accueil. Importation, exportation, fusion et dates restent inchangés.
+
 ## V50 — Accueil simplifié
 
 Création, génération et import JSON individuel dans Fonctions avancées. Règles sur une page dédiée. Export individuel dans les outils de partie. Données et bibliothèque inchangées.
