@@ -1,3 +1,7 @@
+# Cogit V2.0.1
+
+Campagne : bouton sous les sauvegardes, écran de défaite avec Relance, numéro reproductible composé des sept numéros de grille dans l’ordre des formats. Une campagne active à la fois. Les campagnes V52 existantes gardent leurs grilles et obtiennent automatiquement leur numéro.
+
 ## V51 — Gestion des données dans Fonctions avancées
 
 La rubrique complète de gestion des données quitte l’accueil. Importation, exportation, fusion et dates restent inchangés.
