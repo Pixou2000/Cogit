@@ -334,3 +334,7 @@ Quand un chiffre ou une couleur n’a plus de placements disponibles, son bouton
 - Compteur d’interruptions, bilan et historique enrichis ; records fondés sur le temps effectif comme auparavant.
 - Sauvegardes JSON et locales : reprise des chronos et du compteur. Anciennes sauvegardes : temps effectif conservé, temps écoulé et interruptions inconnus.
 - Aucun mode Campagne dans cette version.
+
+## V45 — Plusieurs sauvegardes locales
+
+Liste des parties sauvegardées, compteur dynamique, date de dernière sauvegarde, reprise et suppression individuelle. Migration de la sauvegarde unique V44. Une partie terminée est retirée de la liste.
