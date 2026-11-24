@@ -1,3 +1,7 @@
+# V2.1.1 — Ergonomie des campagnes
+
+Page dédiée, reprise explicite, abandon confirmé (catalogue conservé), import de liens pendant une campagne et synchronisation des abandons.
+
 # Cogit V2.0.1
 
 Campagne : bouton sous les sauvegardes, écran de défaite avec Relance, numéro reproductible composé des sept numéros de grille dans l’ordre des formats. Une campagne active à la fois. Les campagnes V52 existantes gardent leurs grilles et obtiennent automatiquement leur numéro.
