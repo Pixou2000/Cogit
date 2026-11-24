@@ -1,3 +1,7 @@
+# V2.1.4 — Simplification des données
+
+Accueil : affichage permanent « Pseudo : nom » ou « Pseudo : Non défini ». Suppression des commandes séparées d’import/export des résultats ; la gestion globale des données dans Fonctions avancées reste inchangée.
+
 # V2.1.1 — Ergonomie des campagnes
 
 Page dédiée, reprise explicite, abandon confirmé (catalogue conservé), import de liens pendant une campagne et synchronisation des abandons.
