@@ -1,3 +1,9 @@
+## Version 2.1.6
+
+- Bibliothèque : 1 608 grilles.
+- Filtre sans indice négatif sélectionné par défaut.
+- Mode progressif non inclus.
+
 # V2.1.5
 
 920 grilles, dont 210 avec indices négatifs. Filtre sur la bibliothèque individuelle (hasard, non résolue, numéro). Les campagnes restent indépendantes du filtre.
