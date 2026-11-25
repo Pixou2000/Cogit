@@ -1,3 +1,7 @@
+# V2.1.5
+
+920 grilles, dont 210 avec indices négatifs. Filtre sur la bibliothèque individuelle (hasard, non résolue, numéro). Les campagnes restent indépendantes du filtre.
+
 # V2.1.4 — Simplification des données
 
 Accueil : affichage permanent « Pseudo : nom » ou « Pseudo : Non défini ». Suppression des commandes séparées d’import/export des résultats ; la gestion globale des données dans Fonctions avancées reste inchangée.
