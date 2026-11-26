@@ -425,3 +425,7 @@ Annotations manuelles indépendantes pour les chiffres et les couleurs, via le b
 ## V2.1.13 — Modes de saisie distincts
 
 Boutons Valeurs et Candidats explicites, fond orangé et palette noire avec petits chiffres et pastilles rondes en mode Candidats, contour orange de la case sélectionnée. Le mode reste actif lors des changements de case et des annulations ; un second appui sur Candidats ne le désactive pas. Les stocks restent visibles en mode Valeurs. Une nouvelle partie ou une reprise démarre en mode Valeurs. Règles intégrées actualisées.
+
+## V2.1.14 — Historique et gestion des données
+
+Trois filtres cumulables sur une ligne : catégorie (orientations équivalentes), difficulté et résultat. Statistiques de la sélection, numéros de tentative calculés sur tout l’historique, réinitialisation à chaque ouverture. Les records restent indépendants des filtres. Export et import globaux directement visibles dans Fonctions avancées.
