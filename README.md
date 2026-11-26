@@ -408,3 +408,11 @@ Dix formats individuels : ajout de 3x2, 4x3, 5x4, chacun avec 20 grilles initial
 
 ## V2.1.10
 Une campagne active par longueur (mini, courte, longue). Migration de la campagne active existante et fusion des sauvegardes par longueur, avec conservation de la plus récente en cas de conflit. Progression et abandon indépendants.
+
+
+## V2.1.10 — Actualisation des règles
+Documentation intégrée mise à jour : déverrouillage des indices négatifs par record sans erreur ni aide, trois longueurs de campagne, orientations aléatoires, campagnes simultanées et records séparés. Aucun changement de logique de jeu.
+
+## V2.1.11 — Mini candidats
+
+Annotations manuelles indépendantes pour les chiffres et les couleurs, via le bouton Candidats. Un appui ajoute ou retire une hypothèse. Une saisie définitive correcte efface uniquement les candidats du même type. Annuler restaure les annotations ; Effacer en mode Candidats retire uniquement les annotations de la case. Les candidats sont sauvegardés avec les cases, y compris en campagne, sans aide, erreur ni changement de stock. Les anciennes sauvegardes restent compatibles. Les règles intégrées sont actualisées.
