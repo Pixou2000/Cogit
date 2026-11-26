@@ -399,3 +399,9 @@ Historique des campagnes indépendant, bilan provisoire, pseudo sur l’accueil,
 
 ## V2.1.3
 Le changement de pseudo renomme les campagnes personnelles (catalogue, campagne active et historique), sans modifier leurs identifiants, numéros, grilles ou résultats. La migration au démarrage et après import applique le pseudo courant. Les campagnes reçues gardent leur nom ; les anciens liens restent utilisables.
+
+## V2.1.7
+Trois indices positifs supplémentaires par tentative individuelle, contour vert. Choix par propagation logique depuis les cases renseignées. Aides persistantes dans les sauvegardes et historiques, prises en compte dans les records. Pas d’aide en campagne.
+
+## V2.1.8
+Dix formats individuels : ajout de 3x2, 4x3, 5x4, chacun avec 20 grilles initiales (15 sans négatif, 5 avec un négatif). Campagnes inchangées à sept formats. Générateur V7 compatible.
