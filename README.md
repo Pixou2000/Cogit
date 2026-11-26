@@ -405,3 +405,6 @@ Trois indices positifs supplémentaires par tentative individuelle, contour vert
 
 ## V2.1.8
 Dix formats individuels : ajout de 3x2, 4x3, 5x4, chacun avec 20 grilles initiales (15 sans négatif, 5 avec un négatif). Campagnes inchangées à sept formats. Générateur V7 compatible.
+
+## V2.1.10
+Une campagne active par longueur (mini, courte, longue). Migration de la campagne active existante et fusion des sauvegardes par longueur, avec conservation de la plus récente en cas de conflit. Progression et abandon indépendants.
