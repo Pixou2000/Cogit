@@ -416,3 +416,8 @@ Documentation intégrée mise à jour : déverrouillage des indices négatifs pa
 ## V2.1.11 — Mini candidats
 
 Annotations manuelles indépendantes pour les chiffres et les couleurs, via le bouton Candidats. Un appui ajoute ou retire une hypothèse. Une saisie définitive correcte efface uniquement les candidats du même type. Annuler restaure les annotations ; Effacer en mode Candidats retire uniquement les annotations de la case. Les candidats sont sauvegardés avec les cases, y compris en campagne, sans aide, erreur ni changement de stock. Les anciennes sauvegardes restent compatibles. Les règles intégrées sont actualisées.
+
+## V2.1.12 — Lisibilité des mini candidats
+
+- Mini chiffres et couleurs recentrés à 30 % et 70 % de la hauteur des cases.
+- Palettes à fond noir en mode Candidats, chiffres et points de stock blancs.
