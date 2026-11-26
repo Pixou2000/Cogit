@@ -421,3 +421,7 @@ Annotations manuelles indépendantes pour les chiffres et les couleurs, via le b
 
 - Mini chiffres et couleurs recentrés à 30 % et 70 % de la hauteur des cases.
 - Palettes à fond noir en mode Candidats, chiffres et points de stock blancs.
+
+## V2.1.13 — Modes de saisie distincts
+
+Boutons Valeurs et Candidats explicites, fond orangé et palette noire avec petits chiffres et pastilles rondes en mode Candidats, contour orange de la case sélectionnée. Le mode reste actif lors des changements de case et des annulations ; un second appui sur Candidats ne le désactive pas. Les stocks restent visibles en mode Valeurs. Une nouvelle partie ou une reprise démarre en mode Valeurs. Règles intégrées actualisées.
