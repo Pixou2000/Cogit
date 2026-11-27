@@ -1,5 +1,5 @@
-const CACHE_NAME = 'colordigitlogic-v2.1.14-lib2';
-const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './grilles/2x3.json', './grilles/3x3.json', './grilles/3x4.json', './grilles/4x4.json', './grilles/4x5.json', './grilles/5x5.json', './grilles/5x6.json', './grilles/3x2.json', './grilles/4x3.json', './grilles/5x4.json'];
+const CACHE_NAME = 'colordigitlogic-v2.2.2-lib2';
+const ASSETS = ['./', './index.html', './statistics.js', './manifest.webmanifest', './icon-192.png', './icon-512.png', './grilles/2x3.json', './grilles/3x3.json', './grilles/3x4.json', './grilles/4x4.json', './grilles/4x5.json', './grilles/5x5.json', './grilles/5x6.json', './grilles/3x2.json', './grilles/4x3.json', './grilles/5x4.json'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
 });
