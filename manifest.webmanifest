@@ -1,7 +1,7 @@
 {
-  "name": "Cogit",
-  "short_name": "Cogit",
-  "description": "Cogit — jeu de logique des chiffres et des couleurs",
+  "name": "Cogiku",
+  "short_name": "Cogiku",
+  "description": "Cogiku — jeu de logique des chiffres et des couleurs",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -9,13 +9,13 @@
   "theme_color": "#243a53",
   "icons": [
     {
-      "src": "./icon-192.png",
+      "src": "./cogiku-icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "./icon-512.png",
+      "src": "./cogiku-icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

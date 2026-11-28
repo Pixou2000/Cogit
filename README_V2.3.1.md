@@ -1,0 +1,2 @@
+# Cogiku 2.3.1 — test local
+Serveur 2.3.0 inchangé. URL et clés de stockage conservées. Export individuel compatible avec CogitData v1 ; pseudo importé uniquement si le profil actif est sans pseudo. Sauvegarde complète des profils et données locales, y compris configuration statistique et identifiants. Restauration remplace les profils locaux et désactive le partage par sécurité ; les files IndexedDB de transmission ne sont pas incluses. Sauvegarder avant restauration. Tester en local avant publication. Contrôle syntaxique JS effectué, tests navigateur non effectués.
